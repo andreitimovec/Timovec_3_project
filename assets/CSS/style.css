@@ -1,0 +1,226 @@
+
+
+    /* @font-face {
+        font-family: 'Roboto'; 
+        src: url('../fonts/Roboto-Regular.ttf');
+        font-weight: 400;
+        font-style: normal;
+    } */ /*подключение шрифта скачанного с GOOGLE (это не совсем 
+    правильно так как не все браузеры с ним будут работать. 
+    В идеале надо его трансформировать*/
+    /* @font-face {
+        font-family: 'Roboto';
+        src: url('../fonts/Roboto-Medium.ttf');
+        font-weight: 500;
+        font-style: normal;
+    } */
+
+/*подключаем шрифт + HTML ПРАВИЛЬНО */
+html{
+    font-family: 'Montserrat', sans-serif; 
+}  
+
+.fon{
+    background-image: url(../images/bg.svg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.con-lain{
+    display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+
+
+.company-fon{
+    background-image: url(../images/Rectangle.svg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1920px;
+    height: 900px;
+}
+
+.nav{
+    display: inline-block;
+}
+.nav__list{
+    position: absolute;
+    width: 583px;
+    height: 59px;
+    left: 932px;
+    top: 40px;
+}
+
+.nav__item{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.nav__link.active:hover,
+.nav__link{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+.nav__link:hover, /*меняет состояние элемента при наведении МЫШКИ!!!!! */
+.nav__link.active{ /* дописали .nav__link и между тегами убираем пробел с целью не повторяемости в дальнейшем класса .active */
+  
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    /*text-decoration-line: underline; /* убираем подчеркивание заголовка */
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.verst_1{
+    position: absolute;
+    width: 175px;
+    height: 20px;
+    left: 872px;
+    top: 319px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading{
+    position: absolute;
+    width: 829px;
+    height: 111px;
+    left: 545px;
+    top: 359px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.Botton__company{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 520px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+
+    color: #FFFFFF;
+
+    text-decoration:none;
+
+    border: solid none; 
+    background:#4985FF;
+    border-radius: 30px;
+}
+
+.Botton__company:hover{
+    background:#FFFFFF;
+    color: #4985FF;
+}
+
+.mobile-fon{
+    position: absolute;
+    width: 1113px;
+    height: 488px;
+    left: 405px;
+    top: 1010px;
+}
+
+.web_heading{
+    position: absolute;
+    width: 739px;
+    height: 88px;
+    left: 20%;
+    top: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #323232;
+}
+
+.Lorem_ipsum{
+    position: absolute;
+    width: 730px;
+    height: 41px;
+    left: 20%;
+    top: 138px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #999999;
+}
+
+.web_inner{
+    display: flex;
+    /* position: absolute;
+    width: 353px;
+    height: 139px; 
+    left: 0px;
+    top: 249px;*/
+    margin-top: 249px;
+}
+
+.web{
+    display: flex;
+    padding: 0 10px;
+    max-width: 33.333%;
+    flex: 0 0 33.333%;
+}
+.web__img-wrap{
+    max-width: 50px;
+    flex: 0 0 50px;
+}
+
+.web__img{}
+
+.web__content{
+    /* max-width: calc(100% - 50px);
+    flex: 0 0 calc(100% - 50px);
+    padding-left: 10px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF; */
+}
+
+.web__verst{
+    /*font-weight: 500; */
+}
+
+.web__Lorem{
+    /* font-size: 16px; */
+}
+
